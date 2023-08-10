@@ -7,12 +7,112 @@
 
 .hero{
     height: 45rem;
-    width: 115%;
+    width: 100%;
     background-image: url(../img/a.jpg);
     background-size: cover;
-    background-position: right;
+    background-position: center;
 }
 
 .logo{
     color:blanchedalmond;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.btn{
+    background-color: rgb(153, 134, 118);
+    color: blanchedalmond;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: blanchedalmond;
+    border: 2px solid blanchedalmond;
+    transition: .4s;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+span{
+    color: rgb(196, 136, 46);
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style-type: none;
+    padding: 10px 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: blanchedalmond;
+    transition: .3s;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: white;
+    margin: 25px 0 20px;
+    font-size: 85px;
+    letter-spacing: 2px;
+}
+
+h3{
+    color: blanchedalmond;
+    font-size: 20px;
+    font-style: italic;
+}
+
+p{
+    color: white;
+    margin-bottom: 40px;
+    line-height: 28px;
+}
+
+.btn2 button{
+    color: blanchedalmond;
+    background-color: rgb(153, 134, 118);
+    border: 2px solid blanchedalmond;
+    padding: 10px 40px;
+    border-radius: 30px;
+    outline: none;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: transform .4s;
+}
+
+.btn2 button:hover{
+   transform: scale(0.8);
 }
